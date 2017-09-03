@@ -34,12 +34,12 @@
 			  <configuration>
 				 <tagNameFormat>v@{project.version}</tagNameFormat>
 				 <autoVersionSubmodules>true</autoVersionSubmodules>
-				 <releaseProfiles>releases</releaseProfiles>
+				 <!--releaseProfiles>releases</releaseProfiles-->
 			  </configuration>
 		  </plugin>
   </plugins>
   </build>
-  <profiles>
+  <!--profiles>
    <profile>
       <id>releases</id>
       <build>
@@ -66,7 +66,7 @@
          </plugins>
       </build>
    </profile>
-</profiles>
+</profiles-->
   <!-- for download dependencies-->
   <repositories>
     <repository>
